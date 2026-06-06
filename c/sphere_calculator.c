@@ -32,7 +32,7 @@ printf("\nCUBE: %.2lf", cube);
  Squareroot = sqrt(number);
 printf("\nSQUARE ROOT: %.2lf", Squareroot);
  } else {
-    printf("\nCannot calculated the square root");
+    printf("\nCannot calculate the square root");
 }
 
     return 0;
