@@ -14,7 +14,9 @@ float x = 45;
 //x = log(x);
 //x = sin(x);
 //x = cos(x);
-x = tan(x);
+//x = tan(x);
+
+
 printf("%f", x);
 
 
