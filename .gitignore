@@ -1,1 +1,28 @@
-*.exe 
+# Ignore compiled files
+*.o
+*.out
+*.a
+*.so
+
+# Ignore object files
+*.obj
+
+# Ignore executables
+*.exe
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore build directories
+build/
+dist/
+bin/
