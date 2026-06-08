@@ -24,7 +24,7 @@ scanf("%d", &years);
 printf("Enter # of times compound per year(n): ");
 scanf("%d", &timesCompunded);
 
-total =  * pow(1 + rate / timesCompunded, timesCompunded * years);
+total = principal * pow(1 + rate / timesCompunded, timesCompunded * years);
 
 printf("After %d years, the total will be R$%.2lf", years, total);
 
