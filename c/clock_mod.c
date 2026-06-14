@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int hour = 14;
+    int hour = 12;
 
     if (hour < 6) {
         printf("You should be asleep.\n");

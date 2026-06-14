@@ -12,7 +12,7 @@ int main (){
    printf("You are now singed up!");
   } 
   else if (age == 0) {
-    printf("You cant singed up! You were just born");
+    printf("You can't singed up! You were just born");
     
   }
   else if (age < 0){

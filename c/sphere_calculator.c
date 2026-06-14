@@ -20,13 +20,10 @@ rounded = round(number);
 square = pow(number, 2);
 cube  = pow(number, 3);
 
-
-
 printf("\nABSOLUTE VALUE: %.2lf", absolute);
-printf("\nROUNDED VALUE: %.lf", rounded);
+printf("\nROUNDED VALUE: %.0lf", rounded);
 printf("\nSQUARE: %.2lf", square);
 printf("\nCUBE: %.2lf", cube);
-
 
  if (number >= 0){
  Squareroot = sqrt(number);
